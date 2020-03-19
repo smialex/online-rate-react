@@ -1,0 +1,1 @@
+export { RatesChart } from './RatesChart';
