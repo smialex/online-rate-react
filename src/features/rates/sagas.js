@@ -1,6 +1,6 @@
 import { call, put, delay, select } from 'redux-saga/effects';
-import { fetchRatesUsdEur } from '../../libs/api/ratesApi';
-import { ratesAddRate } from './model';
+import { fetchRatesUsdEur } from './api';
+import { ratesAddRate } from './ducks';
 import { ratesIntervalSelect } from './selectors';
 
 export function* ratesSaga() {

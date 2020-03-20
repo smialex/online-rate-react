@@ -1,6 +1,6 @@
 export {
   ratesAddRate, ratesResetRates, ratesSetInterval, ratesSetMaxRows,
   ratesReducer
-} from './model'
+} from './ducks'
 export { ratesSaga } from './sagas';
 export { RatesView } from './containers';
